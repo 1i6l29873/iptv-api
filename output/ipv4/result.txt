@@ -1,5 +1,5 @@
 🕘️更新时间,#genre#
-2026-02-20 13:00:16,http://112.27.235.94:8000/hls/1/index.m3u8$订阅源
+2026-02-20 13:18:23,http://112.27.235.94:8000/hls/1/index.m3u8$订阅源
 
 📺央视频道,#genre#
 CCTV-1,http://112.27.235.94:8000/hls/1/index.m3u8$订阅源
@@ -34,17 +34,16 @@ CCTV-15,http://112.27.235.94:8000/hls/16/index.m3u8$订阅源
 东方卫视,http://bp-resource-dfl.bestv.cn/155/3/video.m3u8$订阅源
 东南卫视,http://112.27.235.94:8000/hls/38/index.m3u8$订阅源
 贵州卫视,http://112.27.235.94:8000/hls/46/index.m3u8$订阅源
-海南卫视,http://120.76.248.139/live/bfgd/4200000473.m3u8$订阅源
 海南卫视,http://nn.7x9d.cn/地方台8563/海南.php?id=hnws$订阅源
-河北卫视,http://120.76.248.139/live/bfgd/4200000108.m3u8$订阅源
+海南卫视,http://120.76.248.139/live/bfgd/4200000473.m3u8$订阅源
 河北卫视,http://112.27.235.94:8000/hls/39/index.m3u8$订阅源
+河北卫视,http://120.76.248.139/live/bfgd/4200000108.m3u8$订阅源
 河南卫视,http://1.94.31.214/php/hntv.php?id=hnws$订阅源
 河南卫视,http://112.27.235.94:8000/hls/37/index.m3u8$订阅源
 江苏卫视,http://112.27.235.94:8000/hls/32/index.m3u8$订阅源
 江西卫视,http://112.27.235.94:8000/hls/44/index.m3u8$订阅源
 辽宁卫视,http://112.27.235.94:8000/hls/47/index.m3u8$订阅源
 内蒙古卫视,http://112.27.235.94:8000/hls/49/index.m3u8$订阅源
-内蒙古卫视,http://120.76.248.139/live/bfgd/4200000110.m3u8$订阅源
 宁夏卫视,http://120.76.248.139/live/bfgd/4200000118.m3u8$订阅源
 山东卫视,http://112.27.235.94:8000/hls/34/index.m3u8$订阅源
 山西卫视,http://112.27.235.94:8000/hls/45/index.m3u8$订阅源
@@ -54,9 +53,10 @@ CCTV-15,http://112.27.235.94:8000/hls/16/index.m3u8$订阅源
 三沙卫视,http://nn.7x9d.cn/地方台8563/海南.php?id=ssws$订阅源
 天津卫视,http://112.27.235.94:8000/hls/42/index.m3u8$订阅源
 云南卫视,http://112.27.235.94:8000/hls/40/index.m3u8$订阅源
+云南卫视,http://nn.7x9d.cn/xzc2.php?ua=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4xOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTA2LjAuMC4wIFNhZmFyaS81MzcuMzY=&hls=aHR0cDovL3d3dy5kc2suY2MvcGhwL3N4Z2QucGhwP2lkPXlud3M=$订阅源
 
 🇭🇰 港澳频道,#genre#
-翡翠台,http://iptv.4666888.xyz/iptv2A.php?id=34$订阅源
-明珠台,http://iptv.4666888.xyz/iptv2A.php?id=29$订阅源
-
-🇲🇴 澳门频道,#genre#
+中视,rtmp://f13h.mine.nu/sat/tv091$订阅源
+华视,rtmp://f13h.mine.nu/sat/tv111$订阅源
+台视,rtmp://f13h.mine.nu/sat/tv071$订阅源
+民视,rtmp://f13h.mine.nu/sat/tv051$订阅源
