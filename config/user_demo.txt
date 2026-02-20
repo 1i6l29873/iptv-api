@@ -54,35 +54,28 @@ CCTV-17
 云南卫视
 
 🇭🇰 港澳频道,#genre#
-翡翠台
-Jade
-明珠台
-Pearl
-TVB Plus
-无线新闻台
-TVB News
-凤凰中文台
-凤凰资讯台
-凤凰卫视电影台
-凤凰卫视香港台
-HOY TV
-HOY International
-有线新闻台
-Now TV 101
-Now 新闻台
+凤凰中文
+凤凰资讯
+TVB翡翠台
+TVB明珠台
+J2
 ViuTV
-ViuTVsix
-奇妙电视77台
-RTHK TV 31
-RTHK TV 32
-ATV 亚洲电视（经典）
-
-🇲🇴 澳门频道,#genre#
-澳广视 澳视澳门
-TDM Ou Mun
-澳广视 澳视葡文
-TDM Informação
-澳广视 澳门综艺
-TDM Desporto
-
-🇹🇼 台
+HOY TV
+有线新闻台
+中天新闻
+中视
+华视
+台视
+民视
+三立新闻
+三立台湾台
+东森新闻
+东森综合
+东森戏剧
+TVBS新闻
+TVBS欢乐
+公视
+寰宇新闻
+澳亚卫视
+澳门卫视
+澳门莲花卫视
