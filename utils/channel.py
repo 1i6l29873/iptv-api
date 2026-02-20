@@ -739,13 +739,13 @@ def process_write_content(
             continue
            
     for item in channel_urls:
-    item_url = item["url"]
-    # 安全获取 extra_info，避免 KeyError
-    extra_info = item.get("extra_info", "")
-    if open_url_info and extra_info:
-        item_url = add_url_info(item_url, extra_info)
-    total_item_url = f"{hls_url}/{item['id']}.m3u8" if hls_url else item_url
-    content += f"\n{name},{total_item_url}"
+        item_url = item["url"]
+        # 安全获取 extra_info，避免 KeyError
+        extra_info = item.get("extra_info", "")
+        if open_url_info and extra_info:
+            item_url = add_url_info(item_url, extra_info)
+        total_item_url = f"{hls_url}/{item['id']}.m3u8" if hls_url else item_url
+        content += f"\n{name},{total_item_url}"
     
     if open_empty_category and no_result_name and is_last:
         custom_print(f"\n{t("msg.no_result_channel")}")
