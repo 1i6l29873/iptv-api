@@ -1,24 +1,37 @@
-# 这是订阅源列表，每行一个订阅地址
-# This is a list of subscription sources, with one subscription address per line
+# 优化订阅源列表 - 纯 HTTP 单播优先，适合洛杉矶海外使用
+# 移除所有组播源（YueChan、部分 suxuang ipv4、qwerttvv 北京组播等已注释/删除）
 
-
+# iptv-org 官方中国源（混合，但 http 为主，少量 UDP 可被项目过滤）
 https://raw.githubusercontent.com/iptv-org/iptv/gh-pages/countries/cn.m3u
-https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u
-https://raw.githubusercontent.com/suxuang/myIPTV/main/ipv4.m3u
-# https://raw.githubusercontent.com/kimwang1978/collect-tv-txt/main/others_output.txt
-# https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv6.txt
-# https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv4.txt
-# https://live.hacks.tools/tv/iptv6.txt
-# https://live.hacks.tools/tv/iptv4.txt
 
-https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/IPTV.m3u
+# iptv-org streams 版（类似上面，http 多）
+https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u
+
+# 咪咕源 - 纯 HTTP，高清央视/卫视/体育，海外稳定
 https://raw.githubusercontent.com/YanG-1989/m3u/refs/heads/main/Migu.m3u
-# https://raw.githubusercontent.com/qwerttvv/Beijing-IPTV/refs/heads/master/IPTV-Mobile-Multicast.m3u
-# https://raw.githubusercontent.com/qwerttvv/Beijing-IPTV/refs/heads/master/IPTV-Mobile.m3u
+
+# skddyj IPTV - 纯 HTTP，质量好，包含央视/卫视/地方
 https://raw.githubusercontent.com/skddyj/iptv/refs/heads/main/IPTV.m3u
-https://raw.githubusercontent.com/suxuang/myIPTV/refs/heads/main/ipv4.m3u
+
+# 小肥羊源 - 纯 HTTP，央视+港澳台+4K测试+国际频道，EPG 支持好
 https://raw.githubusercontent.com/suxuang/myIPTV/refs/heads/main/%E5%B0%8F%E8%82%A5%E7%BE%8A.m3u
 
+# suxuang ipv4 版（有少量组播，但 http 占多数，可保留观察；若报错可注释）
+https://raw.githubusercontent.com/suxuang/myIPTV/main/ipv4.m3u
+
+# 港澳台补充 - iptv-org 香港源（TVB、凤凰、ViuTV 等，纯 http，海外可用）
+https://raw.githubusercontent.com/iptv-org/iptv/gh-pages/countries/hk.m3u
+
+# 港澳台补充 - iptv-org 台湾源（三立、东森、民视、TVBS 等，纯 http）
+https://raw.githubusercontent.com/iptv-org/iptv/gh-pages/countries/tw.m3u
+
+# 可选：hacks.tools IPv4 版（自动更新，http 单播多，含港澳台）
+# https://live.hacks.tools/tv/iptv4.txt
+
 [WHITELIST]
-# 以下是订阅源的白名单，白名单内的订阅源获取的接口将不会参与测速，始终保留至结果最前。
-# This is the whitelist for subscription sources. Subscription sources in the whitelist will not participate in speed testing and will always be retained at the front of the results.
+# 白名单源：稳定、高清、优先保留在前，无需测速
+https://raw.githubusercontent.com/YanG-1989/m3u/refs/heads/main/Migu.m3u
+https://raw.githubusercontent.com/skddyj/iptv/refs/heads/main/IPTV.m3u
+https://raw.githubusercontent.com/suxuang/myIPTV/refs/heads/main/%E5%B0%8F%E8%82%A5%E7%BE%8A.m3u
+https://raw.githubusercontent.com/iptv-org/iptv/gh-pages/countries/hk.m3u
+https://raw.githubusercontent.com/iptv-org/iptv/gh-pages/countries/tw.m3u
